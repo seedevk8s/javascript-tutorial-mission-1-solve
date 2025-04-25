@@ -1,4 +1,4 @@
-function CourseItem(props) {
+export default function CourseItem(props) {
   return (
     <article class="course">
       <img src='/img/view.jpeg' alt='자연 이미지' width={150} height={100}/>
@@ -9,5 +9,3 @@ function CourseItem(props) {
      </article>
   );
 }
-
-export default CourseItem;
